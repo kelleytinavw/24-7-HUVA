@@ -1,0 +1,47 @@
+/*.maincontent{background:url(/a/global/img/watermark_150-40.png) bottom no-repeat fixed;}*/
+
+.social{margin-left:10px;}
+.social img{width:35px;height:35px;}
+
+.newsitem, .morenews{background:url(http://img.hamptonu.edu/assets/global/trans_bgd/fff_60.png);margin:2% 1% 0 0;padding:1.5%;height:120px;border-left:5px solid #0f2f61;font-size:90%;}
+.newsitem:hover{border-left:5px solid #7b4e4e;}
+.newsitem h2{font-size:105%;} 
+.newsitem img{float:left;padding-right:15px;margin-top:5px;}
+.morenews{height:auto;text-align:right;font-weight:bold;}
+
+
+.calitem,.calitembtm{background:url(http://img.hamptonu.edu/assets/global/trans_bgd/fff_60.png);
+	margin:2% 1% 0 0;padding:1.45%;height:100px;border-left:5px solid #0f2f61;font-size:90%;color:#003384;}
+.calitem:hover{border-left:5px solid #7b4e4e;}
+.calitem .date{font-size:115%;background:url(http://img.hamptonu.edu/assets/global/trans_bgd/fff_40.png);width:100%;padding:0 3px;} 
+.calitembtm{height:auto;text-align:center;padding:2.3% 1.45%}
+
+.qlitem {margin-right:15px;border-left:5px solid #0f2f61;color:#fff;height:120px;background-image:url(http://img.hamptonu.edu/assets/global/trans_bgd/000_60.png);
+background-size:100% auto;background-origin: border-box;font-size:90%}
+.qlitem:hover{border-left:5px solid #000;}
+.qlitem a{display:block;padding:5px 2px;color:#fff;height:100%}
+
+.resitem{height:150px;overflow:hidden;}
+.resitem img{width:100%;height:auto;}
+.resitem .mobilelabel{display:none;}
+
+.donate{float:left;margin-left:10px;}
+
+@media screen and (min-width: 1000px) and (max-width: 1024px){
+	.qlitem {margin-right:10px;height:120px;font-size:80%;}
+	.qlitem a{padding:5px 2px;}
+}
+
+@media screen and (min-width: 1px) and (max-width: 999px){
+	/*.featured .links{display:none}*/
+	ul.links{}
+	ul.links li{float:none;display:block;padding:1px;margin:0;}
+	.featured div:first-child{padding-top:40px;}
+	.resitem,.qlitem{height:20px;padding:10px;font-size:110%;border-left:5px solid #0f2f61;cursor:pointer;
+		background:url(http://img.hamptonu.edu/assets/global/trans_bgd/fff_60.png)!important;}
+	.qlitem a{color:#000;text-shadow:none;padding:0;}
+	.resitem:hover,.qlitem:hover{border-left:5px solid #000;}
+	.resitem img{display:none;}
+	.resitem .mobilelabel{display:block;}
+	.donate{clear:both;text-align:center;}
+}

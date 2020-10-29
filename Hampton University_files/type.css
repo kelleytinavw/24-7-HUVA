@@ -1,0 +1,85 @@
+@font-face {
+    font-family: 'Montserrat';
+    src: url('http://www.hamptonu.edu/a/global/typography/Montserrat-Regular-webfont.eot');
+    src: url('http://www.hamptonu.edu/a/global/typography/Montserrat-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('http://www.hamptonu.edu/a/global/typography/Montserrat-Regular-webfont.svg#montserratregular') format('svg'),
+         url('http://www.hamptonu.edu/a/global/typography/Montserrat-Regular-webfont.woff') format('woff'),
+         url('http://www.hamptonu.edu/a/global/typography/Montserrat-Regular-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'MontserratBold';
+    src: url('http://www.hamptonu.edu/a/global/typography/Montserrat-Bold-webfont.eot');
+    src: url('http://www.hamptonu.edu/a/global/typography/../typography/Montserrat-Bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('http://www.hamptonu.edu/a/global/typography/Montserrat-Bold-webfont.svg#montserratbold') format('svg'),
+         url('http://www.hamptonu.edu/a/global/typography/Montserrat-Bold-webfont.woff') format('woff'),
+         url('http://www.hamptonu.edu/a/global/typography/Montserrat-Bold-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+body{font-family:'Montserrat',sans-serif;}
+strong{font-family:'MontserratBold',sans-serif;}
+em{font-family:'Montserrat',sans-serif;font-style:italic;}
+strong em, em strong{font-family:'MontserratBold',sans-serif;font-style:italic;}
+
+h1,h2,h3,h4,h5,h6{font-family:'MontserratBold',sans-serif;font-weight:normal;}
+h1 em, h2 em, h3 em, h4 em, h5 em{font-family:'MontserratBold',sans-serif;font-style:italic;}
+
+/*
+@font-face {
+    font-family: 'opensansbold';
+    src: url('http://www.hamptonu.edu/a/global/typography/opensans-bold-webfont.eot');
+    src: url('http://www.hamptonu.edu/a/global/typography/opensans-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('http://www.hamptonu.edu/a/global/typography/opensans-bold-webfont.woff2') format('woff2'),
+         url('http://www.hamptonu.edu/a/global/typography/opensans-bold-webfont.woff') format('woff'),
+         url('http://www.hamptonu.edu/a/global/typography/opensans-bold-webfont.ttf') format('truetype'),
+         url('http://www.hamptonu.edu/a/global/typography/opensans-bold-webfont.svg#open_sansbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'opensansbold_italic';
+    src: url('http://www.hamptonu.edu/a/global/typography/opensans-bolditalic-webfont.eot');
+    src: url('http://www.hamptonu.edu/a/global/typography/opensans-bolditalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('http://www.hamptonu.edu/a/global/typography/opensans-bolditalic-webfont.woff2') format('woff2'),
+         url('http://www.hamptonu.edu/a/global/typography/opensans-bolditalic-webfont.woff') format('woff'),
+         url('http://www.hamptonu.edu/a/global/typography/opensans-bolditalic-webfont.ttf') format('truetype'),
+         url('http://www.hamptonu.edu/a/global/typography/opensans-bolditalic-webfont.svg#open_sansbold_italic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'opensansitalic';
+    src: url('http://www.hamptonu.edu/a/global/typography/opensans-italic-webfont.eot');
+    src: url('http://www.hamptonu.edu/a/global/typography/opensans-italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('http://www.hamptonu.edu/a/global/typography/opensans-italic-webfont.woff2') format('woff2'),
+         url('http://www.hamptonu.edu/a/global/typography/opensans-italic-webfont.woff') format('woff'),
+         url('http://www.hamptonu.edu/a/global/typography/opensans-italic-webfont.ttf') format('truetype'),
+         url('http://www.hamptonu.edu/a/global/typography/opensans-italic-webfont.svg#open_sansitalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'opensans';
+    src: url('http://www.hamptonu.edu/a/global/typography/opensans-regular-webfont.eot');
+    src: url('http://www.hamptonu.edu/a/global/typography/opensans-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('http://www.hamptonu.edu/a/global/typography/opensans-regular-webfont.woff2') format('woff2'),
+         url('http://www.hamptonu.edu/a/global/typography/opensans-regular-webfont.woff') format('woff'),
+         url('http://www.hamptonu.edu/a/global/typography/opensans-regular-webfont.ttf') format('truetype'),
+         url('http://www.hamptonu.edu/a/global/typography/opensans-regular-webfont.svg#open_sansregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{font-family:opensans,sans-serif;}
+strong{font-family:opensansbold,sans-serif;}
+em{font-family:opensansitalic,sans-serif;}
+strong em, em strong{font-family:opensansbold_italic,sans-serif;}
+
+h1,h2,h3,h4,h5,h6{font-family:'opensansbold',sans-serif;}
+h1 em, h2 em, h3 em, h4 em, h5 em{font-family:'opensansbold_italic',sans-serif;}*/

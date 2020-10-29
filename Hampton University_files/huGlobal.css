@@ -1,0 +1,81 @@
+a{color:#003384;}
+a:hover{color:#000;}
+ul{list-style-type:none;margin:0;padding:0;}
+.bullet_back {list-style-type:disc;}
+li{margin:0;padding:0;}
+h1,h2,h3,h4,h5{color:#0f2f61;}
+.bold{font-weight:bold;}
+img.scale{width:100%;height:auto;}
+/**/
+body{font-size:15px;-webkit-font-smoothing:antialiased}
+.container{width:100%;margin:0;padding:0;background:linear-gradient(#f9f8f4, #8ba6d0) no-repeat;}
+.section{max-width:1200px;margin:0 auto;float:none;}
+.header,.footer{background:#0f2f61;box-shadow: 0px -5px 37px -6px rgba(0,0,0,0.82);}
+.header #wordmark{padding:5px 0 0 5px;}
+.footer{position:relative;width:98%;padding:1%;}
+.maincontent{background:url(http://www.hamptonu.edu/a/global/img/watermark2.png) center no-repeat fixed;padding-bottom:0;}
+.links{margin:0;padding:6px 0;list-style-type:none;position:relative;font-size:120%;text-align:center;background:#000;}
+.links li{display:inline-block;padding:0 45px 0 0;}
+.links li a{color:#fff;/*text-shadow: 3px 3px 1px #000;font-weight:bold*/}
+.links li a:hover{color:#becce1;}
+
+/*Main Nav*/
+.nav ul{margin:0;padding:0;list-style-type:none;position:relative;display:block;font-size:85%;}
+.nav li{display:block;float:left;margin:0;padding:0;border-bottom:3px solid #36517b;}
+.nav li a{float:left;color:#ebebeb;text-decoration:none;height:24px;padding:9px 12px 0;}
+.nav li:hover,.nav .active{text-decoration:none;border-bottom:3px solid #bfcde1;}
+.nav li:hover a,.nav .active a{color:#fff;}
+
+.social{float:none!important;text-align:center;margin-left:10px;padding:5px 0 0 0}
+.social img{width:35px;height:35px;} 
+
+.footer, .footer a{color:#ebebeb;}
+.footer a:hover{color:#fff;}
+.footer .addy{float:left;}
+.footer .copyr{float:right;}
+
+.search{float:none!important;text-align: center;padding-top:5px;}
+.search form{margin:5px auto 0 10px;text-align-left;}
+.search *{border-radius:0}
+.search input{float:left;width:auto;width:85%;height:25px;padding:5px;background:#f9f8f4;border:none;outline:none;}
+.search #search_button{float:left;clear:none;padding:0;height:auto;width:auto;}
+
+.scale-img{width:100%;height:auto;}
+
+.ifmobile, ul.ifmobile{display:none}
+
+.alert-level-green,.alert-level-yellow,.alert-level-orange,.alert-level-red{width:96%;text-align:left;padding:2%;}
+.alert-level-green span.timestamp,.alert-level-yellow span.timestamp,
+.alert-level-orange span.timestamp,.alert-level-red span.timestamp{
+	color:#000;float:right;font-size:10px;font-style:italic;opacity:.8;}
+.alert-level-green{background:#D3F2D3}
+.alert-level-yellow{background:#F2F2D3}
+.alert-level-orange{background:#FFA600;}
+.alert-level-red{background:#ff0000;color:#fff;text-shadow: 1px 1px 1px #000}
+.alert-level-red h2{color:#fff;text-shadow: 1px 1px 1px #000}
+.alert-level-green a.alertlink,.alert-level-yellow a.alertlink,
+.alert-level-orange a.alertlink,.alert-level-red a.alertlink{
+	display:block;color:#000;font-size:120%;background:#0f2f61;color:#fff;margin:15px 0 0;padding:10px;}
+
+
+@media screen and (min-width: 1px) and (max-width: 1004px){
+	 .section div{width:100%;margin:0 auto;clear:both;margin-bottom:1px;}
+    .container{width:100%}
+	.ifmobile, ul.ifmobile{display:block}
+	.ifdesktop, ul.ifdesktop{display:none}
+	.nav,.links{font-size:100%;}
+    .nav ul li, .links ul li{width:90%;}
+    .social{clear:left;padding-left:5px;}
+    .social a{padding-right:10px;}
+	.maincontent{padding-bottom:200px;width:95%;margin:0;}
+	.footer li{float:none;display:block;}
+	#menutoggle{position:absolute;top:20px;margin-left:30px;}
+	.header *{text-align:center}
+	.search{padding-left:10%}
+    .search input{width:75%;}
+}
+
+@media screen and (min-width: 1px) and (max-width: 479px){
+	img#wordmark{width:60%;height:auto;margin-left:-15%;}
+	a#menutoggle img{width:100%;height:auto;margin:-10px 0 0 -10px;}
+}
