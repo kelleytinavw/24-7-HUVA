@@ -12,7 +12,7 @@ Live URL: https://donnelldebnam.github.io/24-7-HUVA/
 
 ## Sample Utterances that this Bot Takes
 ### covidNineteen Intent
-"Are students coming back to campus"
+"Are students coming back to campus" <br />
 "Will students return to campus"
 "What will students do after COVID"
 "Are students returning after COVID"
