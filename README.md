@@ -9,3 +9,13 @@ CSC 404 Fall 2020 Virtual Assistant Project
 
 ## How do I run it?
 Live URL: https://donnelldebnam.github.io/24-7-HUVA/
+
+## Sample Utterances that this Bot Takes
+### covidNineteen Intent
+"Are students coming back to campus"
+"Will students return to campus"
+"What will students do after COVID"
+"Are students returning after COVID"
+"How is Hampton handling COVID"
+"Will we return to school for Spring semester"
+"Will students return in the spring"
