@@ -9,3 +9,56 @@ CSC 404 Fall 2020 Virtual Assistant Project
 
 ## How do I run it?
 Live URL: https://donnelldebnam.github.io/24-7-HUVA/
+
+## Sample Utterances that this Bot Takes
+### General Intent
+"Hello" <br />
+"Hi" <br />
+"Hey" <br />
+
+### covidNineteen Intent
+"Are students coming back to campus" <br />
+"Will students return to campus" <br />
+"What will students do after COVID" <br />
+"Are students returning after COVID" <br />
+"How is Hampton handling COVID" <br />
+"Will we return to school for Spring semester" <br />
+"Will students return in the spring" <br />
+
+### getFacultyInfo Intent
+"Faculty information on CSC Chittenden"  <br />
+"Information on CSC Chittenden"  <br />
+"Where is CSC Chittenden"  <br />
+"How do I find CSC Chittenden"  <br />
+"How do I reach CSC Chittenden"  <br />
+"I need to speak with CSC Chittenden"  <br />
+
+### finalExamCheck Intent
+"Info on exam CSC 151-01", <br />
+"exam CSC 151-01",
+"when is CSC 151-01", <br />
+"where is CSC 151-01", <br />
+"what time is CSC 151-01", <br />
+"information on CSC 151-01", <br />
+
+### googleFormFeedback Intent
+"Yes" <br />
+"Y"  <br />
+"yes"  <br />
+"y"  <br />
+
+### getStudentForms Intent
+"where can i find the form for Course Withdrawl"
+
+### ReadingDayGrad Intent
+"When is reading day" <br />
+"When is reading day for may graduates"
+
+### Classes Intent
+"When do classes end" <br />
+"When does class end" <br />
+"When are classes finished" <br />
+"When is the semester over" <br />
+
+### getAcademicDepartment Intent
+"can I get academic department information for CSC"
